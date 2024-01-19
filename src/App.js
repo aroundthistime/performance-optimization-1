@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Suspense fallback={<div>Loading</div>}>
+        <link rel="preconnect" href="https://localhost:3001/articles" />
         <Switch>
           <Route path="/" component={ListPage} exact />
           <Route path="/view/:id" component={ViewPage} exact />
