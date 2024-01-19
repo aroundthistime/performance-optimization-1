@@ -20,7 +20,7 @@ function removeSpecialCharacter(str) {
   // preview라 일정 크기의 부분 문자열만 처리하면 됨
   const substr = str.slice(0, 300);
 
-  return substr.replace(/[#_*~&;!\[\]`>\n=-]/g, '')
+  return substr.replace(/[#_*~&;![\]`>\n=-]/g, '')
 }
 
 function Article(props) {
