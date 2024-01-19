@@ -69,7 +69,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "preserve": "npm run build",
-    "serve": "node ./node_modules/serve/bin/serve.js -u -s build",
+    "serve": "node ./node_modules/serve/bin/serve.js -s build",
     "server": "node ./node_modules/json-server/lib/cli/bin.js --watch ./server/database.json -c ./server/config.json"
   },
   "eslintConfig": {
